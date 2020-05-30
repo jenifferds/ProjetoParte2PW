@@ -1,0 +1,19 @@
+.fundo{
+    background-image: url('../images/apple.png') !important;
+    width:  700px;
+    height: 700px;
+    background: no-repeat;
+    background-position:  center;
+}
+.invalido{
+    border: 1px solid red;
+}
+
+.valido {
+    border: 1px solid green; 
+}
+
+
+  
+
+
