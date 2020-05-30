@@ -85,17 +85,9 @@
           });
   
          if (erros > 0) {
-           Swal.fire(
-               'Erro',
-               'Todos os campos são obrigatórios!',
-               'error'
-           );
+            criarAlerta("Erro", "Todos os campos são obrigatórios", "error");
          } else {
-            Swal.fire(
-                'Sucesso',
-                'Login realizado com sucesso!',
-                'success'
-            );
+            criarAlerta("Sucesso", "Login realizado com sucesso!", "success");
          }
   
         });

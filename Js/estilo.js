@@ -1,3 +1,5 @@
+import Swal from "sweetalert2";
+
 function validarCampos(elementoID) {
         
     if($(`#${elementoID}`).val() === "") {
@@ -15,4 +17,8 @@ function validarCampos(elementoID) {
     }
 
 
+  }
+
+  function criarAlerta(titulo, mensagem, icone) {
+    return Swal.fire(titulo, mensagem, icone);
   }
